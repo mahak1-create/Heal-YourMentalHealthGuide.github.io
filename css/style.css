@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	
+	font-family: 'Abril Fatface', cursive;
+	
+}
+header{
+	background-image: url('../images/');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 100vh;
+}
+.clearfix:after{
+	content: "."
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear:both;
+}
+
+.row{
+	max-width: 1180px;
+	margin: left;
+
+}
+.logo{
+	height: 40px;
+	width:  0 auto;
+	float:left;
+	margin-top:120px;
+
+}
+.main-nav li{
+	display: ruby;
+	list-style: none;
+	margin-left: 100px;
+}
+.main-nav li a{
+	color: transparent;
+	text-decoration: none;
+	text-transform: ;
+	font-size: 120%;
+	font-weight: 200;
+}
+.main-content-header{
+	width: 1180px;
+	position: absolute;
+	border: 1px;
+	top:105%;
+	left:65%;
+	transform: translate(-60%,-60%);
+
+
+}
+h1{
+	color: black;
+	font-size: 100%;
+	word-spacing: 15px;
+	margin-bottom: 140px;
+	text-transform: none;
+}
+.btn{
+	display: inline-block;
+	padding: 4px 4px;
+
+	font-weight: lighter;
+	text-decoration:none;
+	text-transform: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s; 
+}
+.btn-full{
+	display:list-item;
+	background-color: transparent;
+	color: black;
+	margin-right:60px;
+	margin-top: 30px;
+	box-shadow: 4px 4px black;
+	border: 2px solid black;
+}
+.btn-full:hover{
+	background-color: lightgreen;
+}
+
+.btn-nav{
+	background-color: orange;
+	color: black;
+	margin-right:50px;
+	margin-top: 30px;
+	box-shadow: 4px 4px black;
+	border: 2px solid black;
+
+}
+.btn-nav:hover{
+	background-color: pink;
+}
+@media only screen and (max-width: 1180px){
+	.main-content-header{
+		width:100%;
+		padding: 0 2%
+
+	}
+}
+@media only screen and (max-width:998px){
+	h1{font-size: 200%;}
+} 
+@media only screen and (max-width: 768px){
+	h1{font-size: 180%}
+	.main-nav{display:none}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
